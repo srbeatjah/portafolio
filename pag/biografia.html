@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografía | Portafolio</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="../index.html" class="logo">
+                <img src="../img/logo.jpg" alt="Logo de la escuela" width="40" height="40">
+                <span>Portafolio</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="biografia.html" class="active">Biografía</a></li>
+                <li class="dropdown">
+                    <a href="#">Actividades <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../pag/actividad1.html">Actividad 1</a></li>
+                        <li><a href="../actividades/actividad2.html">Actividad 2</a></li>
+                        <li><a href="../actividades/actividad3.html">Actividad 3</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="bio-page">
+        <section class="bio-section">
+            <div class="container">
+                <h1 class="section-title slide-in">Biografía</h1>
+                <div class="bio-grid">
+                    <div class="bio-image hover-zoom">
+                        <div class="image-frame">
+                            <img src="../img/alumno.jpeg" alt="Foto de perfil" loading="lazy">
+                            <div class="image-overlay">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bio-content fade-in">
+                        <h2 contenteditable="true">María González Pérez</h2>
+                        <div class="bio-text" contenteditable="true">
+                            <p>Soy estudiante de Matemáticas Avanzadas con especial interés en el análisis de datos y modelado matemático. Mi pasión por los números comenzó desde temprana edad y he participado en diversos concursos y olimpiadas matemáticas.</p>
+                            <p>Actualmente curso el primer semestre de la carrera y este portafolio muestra mis principales actividades y proyectos realizados durante este periodo académico.</p>
+                        </div>
+                        <div class="bio-skills">
+                            <h3>Habilidades</h3>
+                            <div class="skills-list" contenteditable="true">
+                                <span class="skill-tag">Análisis de datos</span>
+                                <span class="skill-tag">Modelado matemático</span>
+                                <span class="skill-tag">Programación en Python</span>
+                                <span class="skill-tag">Estadística</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Portafolio de Evidencias. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/scroll-effects.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 1 | Portafolio</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="../../index.html" class="logo">
+                <img src="../../assets/images/logo-escuela.svg" alt="Logo de la escuela" width="40" height="40">
+                <span>Portafolio</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="../../biografia.html">Biografía</a></li>
+                <li class="dropdown">
+                    <a href="#" class="active">Actividades <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="actividad1.html" class="active">Actividad 1</a></li>
+                        <li><a href="actividad2.html">Actividad 2</a></li>
+                        <li><a href="actividad3.html">Actividad 3</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="activity-page">
+        <div class="container">
+            <a href="../../index.html" class="back-btn"><i class="fas fa-arrow-left"></i> Volver al inicio</a>
+            
+            <article class="activity-article">
+                <header class="activity-header slide-in">
+                    <h1 class="activity-title" contenteditable="true">Modelado de Funciones Lineales</h1>
+                    <div class="activity-meta" contenteditable="true">
+                        <span><i class="far fa-calendar-alt"></i> 15/03/2023</span>
+                        <span><i class="fas fa-book"></i> Matemáticas Avanzadas</span>
+                    </div>
+                </header>
+                
+                <div class="activity-content">
+                    <figure class="activity-figure hover-glow">
+                        <img src="../img/i1.jpg" alt="Modelado de funciones lineales" loading="lazy">
+                        <figcaption contenteditable="true">Gráfico resultante del modelado de datos</figcaption>
+                    </figure>
+                    
+                    <div class="activity-details">
+                        <section class="activity-section fade-in">
+                            <h2 contenteditable="true">Objetivo</h2>
+                            <div contenteditable="true">
+                                <p>El objetivo principal de esta actividad fue aplicar los conceptos de funciones lineales para modelar un conjunto de datos reales y poder realizar predicciones basadas en el modelo obtenido.</p>
+                            </div>
+                        </section>
+                        
+                        <section class="activity-section fade-in">
+                            <h2 contenteditable="true">Desarrollo</h2>
+                            <div contenteditable="true">
+                                <p>Se recopilaron datos sobre el crecimiento de plantas bajo diferentes condiciones de luz. Utilizando el método de mínimos cuadrados, determinamos la ecuación de la recta que mejor se ajustaba a los datos obtenidos.</p>
+                                <p>El proceso incluyó:</p>
+                                <ul>
+                                    <li>Recolección y organización de datos</li>
+                                    <li>Cálculo de pendiente e intercepto</li>
+                                    <li>Validación del modelo</li>
+                                    <li>Interpretación de resultados</li>
+                                </ul>
+                            </div>
+                        </section>
+                        
+                        <section class="activity-section fade-in">
+                            <h2 contenteditable="true">Resultados</h2>
+                            <div contenteditable="true">
+                                <p>Se obtuvo un modelo con un coeficiente de determinación (R²) de 0.92, lo que indica un buen ajuste a los datos. El modelo permitió predecir con precisión el crecimiento de las plantas en diferentes condiciones de iluminación.</p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                
+                <footer class="activity-footer">
+                    <nav class="activity-nav">
+                        <a href="actividad1.html" class="nav-btn disabled"><i class="fas fa-arrow-left"></i> Anterior</a>
+                        <a href="actividad2.html" class="nav-btn">Siguiente <i class="fas fa-arrow-right"></i></a>
+                    </nav>
+                </footer>
+            </article>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Portafolio de Evidencias. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/scroll-effects.js"></script>
+</body>
+</html>

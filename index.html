@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Evidencias</title>
+    <meta name="description" content="Portafolio de evidencias académicas">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="assets/images/logo-escuela.svg">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar glass-effect">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo-escuela.svg" alt="Logo de la escuela" width="40" height="40">
+                <span>Portafolio</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="pag/biografia.html">Biografía</a></li>
+                <li class="dropdown">
+                    <a href="#">Actividades <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="actividades/actividad1.html">Actividad 1</a></li>
+                        <li><a href="actividades/actividad2.html">Actividad 2</a></li>
+                        <li><a href="actividades/actividad3.html">Actividad 3</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Portada Hero con efecto parallax -->
+    <section class="hero parallax">
+        <div class="parallax-background"></div>
+        <div class="hero-content">
+            <h1 class="hero-title" contenteditable="true">Portafolio de Evidencias</h1>
+            <div class="hero-info">
+                <p class="hero-name" contenteditable="true">María González Pérez</p>
+                <p class="hero-period" contenteditable="true">Matemáticas Avanzadas · Primer Semestre 2023</p>
+            </div>
+            <a href="#actividades" class="btn btn-primary pulse">Explorar Actividades</a>
+        </div>
+        <div class="scroll-indicator">
+            <span>Desplázate</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div id="particles-js"></div>
+    </section>
+
+    <script src="js/particles.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
